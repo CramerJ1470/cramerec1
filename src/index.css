@@ -1,13 +1,135 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+		"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+		"Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-image: url(assets/background1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+.Navigation {
+	width: 100%;
+	height: 10rem;
+	background-color: rgb(58, 58, 220);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.back {
+	width: cover;
+}
+.center {
+	align-items: center;
+}
+.linkText {
+	display: inline-flex;
+	flex-direction: row;
+	margin-top: 4.75rem;
+	margin-left: 1.25rem;
+	margin-right: 2.25rem;
+	padding-top: 1rem;
+	padding-bottom: 0.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	color: turquoise;
+	text-align: center;
+	font-size: 2rem;
+
+}
+.left {
+}
+
+.logo {
+	position: absolute;
+	left: 5rem;
+	top: 0.25rem;
+	height: 9rem;
+	width: auto;
+	z-index: 500;
+	background-image: url(assets/logo.png) repeat-x 0;
+  filter: drop-shadow(0 0 .5rem black);
+  
+}
+
+.title1 {
+	position: relative;
+	top: 2rem;
+	font-size: 2rem;
+	font-weight: 600;
+	text-align: center;
+	color: white;
+}
+
+.hgt75 {
+	height: 7.5rem;
+	text-align: center;
+}
+
+.cropped {
+	position: absolute;
+	top: 0.25rem;
+	left: 20%;
+	display: flex;
+	flex-direction: column;
+	background-image: url(assets/cropped.jpg);
+	width: 60%;
+}
+
+.info {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: auto;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	font-size: 20px;
+	margin-right: 1rem;
+}
+
+.worklinks a {
+	color: turquoise;
+}
+
+.Footer {
+	position: absolute;
+	bottom: 1rem;
+	left: 50%;
+	font-weight: bolder;
+	color: white;
+}
+.info p {
+  color: white;
+  margin: .1rem;
+  text-align: right;
+  font-size: 17.5px;
+
+}
+ .info h1 {
+  color: turquoise;
+  margin: .1rem;
+  text-align: right;
+  font-weight: 500;
+
+ }
+
+ .shadow {
+  filter: drop-shadow(0 0 0.5rem black);
+ }
+
+.shadow1 {
+text-shadow: 5px 0px 5px black;
 }
