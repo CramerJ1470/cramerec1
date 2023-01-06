@@ -1,3 +1,19 @@
+@keyframes shake{
+    0%{
+      transform: translateX(0)
+    }
+    25%{
+      transform: translateX(25px);
+    }
+      
+    50%{
+      transform: translateX(-25px);
+    }
+    100%{
+      transform: translateX(0px);
+    }
+  }
+
 body {
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
@@ -26,6 +42,7 @@ code {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
+	border-bottom: 5px double turquoise;
 }
 
 .back {
@@ -44,12 +61,18 @@ code {
 	padding-bottom: 0.5rem;
 	padding-left: 1rem;
 	padding-right: 1rem;
-	color: turquoise;
+	color: white;
 	text-align: center;
 	font-size: 2rem;
-
+	filter: drop-shadow(0 0 0.5rem black);
 }
-.left {
+
+.linkText:hover {
+	animation:  shake 0.8s  ;
+	color: turquoise;
+	
+	
+	
 }
 
 .logo {
@@ -60,8 +83,15 @@ code {
 	width: auto;
 	z-index: 500;
 	background-image: url(assets/logo.png) repeat-x 0;
-  filter: drop-shadow(0 0 .5rem black);
-  
+	filter: drop-shadow(0 0 0.5rem black);
+	
+}
+
+.logo:hover {
+	transform: rotateZ(360deg);
+	transform-origin: 42.5%;
+	transition-duration: 3s;
+	
 }
 
 .title1 {
@@ -88,6 +118,10 @@ code {
 	width: 60%;
 }
 
+.cropped:hover {
+	filter: drop-shadow(0 0 3rem black);
+}
+
 .info {
 	position: absolute;
 	right: 0;
@@ -102,6 +136,12 @@ code {
 
 .worklinks a {
 	color: turquoise;
+	
+}
+
+.worklinks a:hover {
+	filter: drop-shadow(0 0 0.25rem black);
+	color: white;
 }
 
 .Footer {
@@ -112,24 +152,23 @@ code {
 	color: white;
 }
 .info p {
-  color: white;
-  margin: .1rem;
-  text-align: right;
-  font-size: 17.5px;
-
+	color: white;
+	margin: 0.1rem;
+	text-align: right;
+	font-size: 17.5px;
 }
- .info h1 {
-  color: turquoise;
-  margin: .1rem;
-  text-align: right;
-  font-weight: 500;
+.info h1 {
+	color: turquoise;
+	margin: 0.1rem;
+	text-align: right;
+	font-weight: 500;
+	filter: drop-shadow(0 0 0.25rem black);
+}
 
- }
-
- .shadow {
-  filter: drop-shadow(0 0 0.5rem black);
- }
+.shadow {
+	filter: drop-shadow(0 0 0.5rem black);
+}
 
 .shadow1 {
-text-shadow: 5px 0px 5px black;
+	text-shadow: 5px 0px 5px black;
 }
