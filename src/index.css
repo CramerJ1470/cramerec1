@@ -49,7 +49,7 @@ code {
 	width: cover;
 }
 .center {
-	align-items: center;
+	text-align: center;
 }
 .linkText {
 	display: inline-flex;
@@ -97,6 +97,13 @@ code {
 .title1 {
 	position: relative;
 	top: 2rem;
+	font-size: 2rem;
+	font-weight: 600;
+	text-align: center;
+	color: white;
+}
+
+.title {
 	font-size: 2rem;
 	font-weight: 600;
 	text-align: center;
@@ -171,4 +178,15 @@ code {
 
 .shadow1 {
 	text-shadow: 5px 0px 5px black;
+}
+
+.transitionpanel {
+	width: 60%;
+	height: 15rem;
+	border: 2px solid white;
+	margin-left: 20%;
+}
+.beforeAfter {
+	height: 200px;
+	width: 200px;
 }

@@ -1,10 +1,12 @@
 import React from "react";
-import back from "../assets/background1.jpg";
+
+import TransitionPanel from "./TransitionPanel";
 
 const Home = () => {
 	return (
 		<>
-			<div className="title1">Home</div>
+			<div className="title">Home</div>
+			<TransitionPanel/>
 		</>
 	);
 };
