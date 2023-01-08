@@ -8,13 +8,12 @@ import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
 import { Routes, Route } from "react-router-dom";
 import Logo from "./components/Logo";
-
+import SplitImage from "./components/SplitImage";
 
 function App() {
 	return (
-		<div className="App">
-			
-			<Navigation />
+		<div className="App" id="app">
+			<SplitImage />
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/home" element={<Home />} />
@@ -27,10 +26,11 @@ function App() {
 				/>
 				<Route path="/contactus" element={<ContactUs />} />
 			</Routes>
-
 			<Footer />
 		</div>
 	);
 }
-
+//<Navigation />
 export default App;
+/*
+ */

@@ -1,12 +1,17 @@
 import React from "react";
-import pic from "../assets/logo.png";
+import  openup from './logo1.js';
+const logo = require("../assets/logo.png");
 
 const Logo = () => {
+
+   
+	
+	
     
 	return (
 		<>
 			<div>
-			<img src={pic} className="logo" alt="pic"/>
+			<img type="button" src={logo} id="logo" onClick={openup} alt="logo"></img>  
 			</div>
 		</>
 	);
