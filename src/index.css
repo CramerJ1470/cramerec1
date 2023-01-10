@@ -34,6 +34,8 @@ body {
 .background1 {
 	background-image: url("assets/background1.jpg");
 	background-size: cover;
+	height: 100%;
+	width: auto;
 }
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
