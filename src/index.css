@@ -17,6 +17,17 @@
     width: 100%;
     height: auto;
 }
+@media all and (max-width:414px) {
+	.images {
+		height: 896px;
+		width: auto;
+		
+	}
+	
+ 
+}
+
+
 
 
 body {
@@ -34,8 +45,8 @@ body {
 .background1 {
 	background-image: url("assets/background1.jpg");
 	background-size: cover;
-	height: 100%;
-	width: auto;
+	height: auto;
+	width: 100%;
 }
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
