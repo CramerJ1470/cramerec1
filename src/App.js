@@ -11,8 +11,9 @@ import Logo from "./components/Logo";
 import SplitImage from "./components/SplitImage";
 
 function App() {
+	console.log(`width: `,window.screen.availWidth);
 	return (
-		<div className="App" id="app">
+		<div className="App">
 			<SplitImage />
 			<Routes>
 				<Route path="/" element={<Home />} />

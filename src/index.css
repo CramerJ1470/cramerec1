@@ -13,6 +13,11 @@
 		transform: translateX(0px);
 	}
 }
+.WebContainer{
+    width: 100%;
+    height: auto;
+}
+
 
 body {
 	margin: 0;
@@ -22,29 +27,28 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	background-repeat: no-repeat;
-	
-
 	background-size: cover;
 	
 }
 
+.background1 {
+	background-image: url("assets/background1.jpg");
+	background-size: cover;
+}
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
 		monospace;
 }
 
 .Navigation {
-	width: 100%;
-	height: 10rem;
-	background-image: url("assets/background1.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
+	position: absolute;
+	width: 2.5%;
+	height: 5%;
 	color: white;
-	top: 0;
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	border-bottom: 5px double turquoise;
+	top: 2.5%;
+	right: 2.5%;
+	z-index: 2;
+	border: solid white 2px;
 }
 
 .back {
@@ -78,8 +82,8 @@ code {
 	position: absolute;
 	left: 42%;
 	top: 57.25%;
-	height: 25%;
-	width: auto;
+	height: auto;
+	width: 15%;
 	z-index: 500;
 	filter: drop-shadow(0 0 .5rem tan);
 }
@@ -153,7 +157,7 @@ code {
 
 .Footer {
 	position: absolute;
-	top: 1300px;
+	top: 1250px;
 	left: 50%;
 	font-weight: bolder;
 	color: white;
@@ -175,11 +179,14 @@ code {
 .shadow {
 	filter: drop-shadow(0 0 0.5rem black);
 }
-
 .shadow1 {
 	text-shadow: 5px 0px 5px black;
 }
 
+.shadowwhite {
+	text-decoration:5pxdouble;
+	filter: drop-shadow(3px 3px 2px 2.5rem white);
+	}
 .transitionpanel {
 	width: 60%;
 	height: 15rem;
@@ -202,7 +209,9 @@ code {
 .upleft {
 	position: absolute;
 	top: 0px;
-	right: 50%
+	right: 50%;
+	height: 70%;
+	
 }
 
 .upleftmove {
@@ -218,6 +227,8 @@ code {
 	position: absolute;
 	top: 0px;
 	left: 49.79%;
+	height: 70%;
+	
 
 	
 }
@@ -233,10 +244,8 @@ code {
 
 .downleft {
 	position: absolute;
-	top: 694px;
+	top: 70%;
 	right: 50%;
-	
-	
 }
 
 .downleftmove {
@@ -244,16 +253,15 @@ code {
 	right: 100%;
 	top: 100%;
 	content: "";
-	
 	transition: all 1s ease-in-out;
 }
 
 .downright {
 	position: absolute;
-	top: 688px;
-	left: 49.5%;
-	
-	
+	top: 69%;
+	left: 50%;
+	overflow: hidden;
+	z-index: 0;
 }
 
 .downrightmove {
@@ -267,8 +275,7 @@ code {
 
 .startbox {
 	width: auto;
-	height: 1408px;
-	text-align: center;
+	height: 1200px;
 }
 
 .banner {
@@ -278,4 +285,21 @@ code {
 	left: 20%;
 	
 }
+div .clicklogo {
+	position: relative;
+	top: 2%;
+	left: 90%;
+	display: inline-block;
+	align-items: center;
+	color: darkturquoise;
+	font-size: 30px;
+	z-index:600;
+	font-weight: bolder;
+	filter: drop-shadow(0 0 2rem darkturquoise);
+	
 
+ }
+
+ .grid-container {
+	height: 1200px;
+ }
