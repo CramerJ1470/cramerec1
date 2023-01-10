@@ -16,7 +16,7 @@ console.log(`movedon; `,movedon);
 	return (
 		<> <div className="trim">
 			<div className="grid-container startbox">
-			<div className="clicklogo shadow1 center">Clock Logo<br></br>to Enter</div>
+			<div className="clicklogo shadow1 center">Click Logo<br></br>to Enter</div>
 				<Logo />
 
 				<img src={nhpstl}
