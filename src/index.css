@@ -23,7 +23,24 @@
 		width: auto;
 		
 	}
+
+	body {
+		background-size: 414px;
+	}
+	.grid-container{
+	 width: 100%;
+	 height: auto;
+	}
+	#logo {
+		width: 42px;
+		height: auto;
+	}
 	
+	.banner {
+		
+		height: 30px;
+		width: auto;
+	}
  
 }
 
@@ -314,6 +331,4 @@ div .clicklogo {
 
  }
 
- .grid-container {
-	height: 1200px;
- }
+ 
