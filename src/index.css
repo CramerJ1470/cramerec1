@@ -17,30 +17,23 @@
     width: 100%;
     height: auto;
 }
-@media all and (max-width:414px) {
-	.images {
-		height: 896px;
-		width: auto;
-		
-	}
+@media all and (max-width:415px) {
 
-	body {
-		background-size: 414px;
-	}
+
+	
 	.grid-container{
 	 width: 100%;
 	 height: auto;
 	}
-	#logo {
-		width: 42px;
-		height: auto;
+
+
+div .clicklogo.shadow1.center.picbox {
+	position: absolute;
+		left: 35%;
 	}
-	
-	.banner {
-		
-		height: 30px;
-		width: auto;
-	}
+.cropped {
+	height: 30px;
+}
  
 }
 
@@ -319,7 +312,7 @@ code {
 div .clicklogo {
 	position: relative;
 	top: 2%;
-	left: 90%;
+	left: 45%;
 	display: inline-block;
 	align-items: center;
 	color: darkturquoise;
