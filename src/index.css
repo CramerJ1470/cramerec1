@@ -202,16 +202,14 @@ code {
 .element {
 	width:50%;
 	height: auto;
- 
-
-}
+ }
 
 .upleft {
 	position: absolute;
-	top: 0px;
+	top: 0%;
 	right: 50%;
-	height: 70%;
-	
+	height: 50%;
+	width: auto;
 }
 
 .upleftmove {
@@ -219,15 +217,15 @@ code {
 	top: -50%;
 	right: 100%;
 	content: "";
-	
 	transition: all 1s ease-in-out;
 }
 
 .upright {
 	position: absolute;
-	top: 0px;
+	top: 0%;
 	left: 49.79%;
-	height: 70%;
+	height: 50%;
+	width: auto;
 	
 
 	
@@ -238,14 +236,15 @@ code {
 	left: 100%;
 	top: -50%;
 	content: "";
-	
 	transition: all 1s ease-in-out;
 }
 
 .downleft {
 	position: absolute;
-	top: 70%;
+	top: 50%;
 	right: 50%;
+	height: 50%;
+	width: auto;
 }
 
 .downleftmove {
@@ -258,8 +257,10 @@ code {
 
 .downright {
 	position: absolute;
-	top: 69%;
+	top: 50%;
 	left: 50%;
+	height: 50%;
+	width: auto;
 	overflow: hidden;
 	z-index: 0;
 }
