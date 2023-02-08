@@ -418,10 +418,12 @@ top: 57.25%;
 
 .Footer {
 	position: absolute;
-	top: 95vh;
-	left: 50%;
+	top: 90vh;
+	left: 39%;
 	font-weight: bolder;
 	color: white;
+	text-align: center;
+	filter: drop-shadow(0 0 0.75rem black);
 }
 .info p {
 	color: white;
