@@ -9,7 +9,7 @@ function OurApproach() {
 						<h2>Our Personal Approach</h2>
 					</div>
 					<p>
-						At <bold className="bold">Cramer E Construction</bold>,
+						At <strong className="bold">Cramer E Construction</strong>,
 						our homes are distinguised by their exceptional
 						craftsmanship. our attention to detail, ongoing level of
 						communication, and responsiveness are truly unique.
