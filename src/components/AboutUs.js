@@ -1,17 +1,17 @@
 import React from "react";
-const {newPage} = require('../scripts/newPage.js');
-const AboutUs = () => {
+import Navigation from "./Navigation";
+import Logo from "./Logo";
+import Banner from "./Banner";
+import OurApproach from "./OurApproach";
+import TransitionPanel from "./TransitionPanel";
 
-	let cropped = document.getElementsByClassName("croppedup");
-	
-	let logo = document.getElementById("logo");
-
-	newPage(cropped, logo);
-
-
+const AboutUs = (beforeafters) => {
 	return (
-		<><div className="title1">About Us</div>
-			
+		<>
+			<Logo />
+			<Banner />
+			<TransitionPanel beforeafters={beforeafters} />
+			<OurApproach />
 		</>
 	);
 };

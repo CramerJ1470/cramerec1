@@ -1,5 +1,6 @@
 import Navigation from "./components/Navigation";
 import Home1 from "./components/Home1";
+import Home from "./components/Home";
 import AboutUs from "./components/AboutUs";
 import OurWork from "./components/OurWork";
 import Products from "./components/Products";
@@ -42,13 +43,13 @@ function App() {
 					/>
 					<Route
 						path="/home"
-						element={<Home1 beforeafters={beforeafters} />}
+						element={<Home beforeafters={beforeafters} />}
 					/>
 					<Route
 						path="/home1"
 						element={<Home1 beforeafters={beforeafters} />}
 					/>
-					<Route path="/aboutus" element={<AboutUs />} />
+					<Route path="/aboutus" element={<AboutUs beforeafters={beforeafters}/>} />
 					<Route path="/ourwork" element={<OurWork />} />
 					<Route path="/products" element={<Products />} />
 					<Route

@@ -1,14 +1,18 @@
 import React from "react";
-import Navigation from "./Navigation";
 import Logo from "./Logo";
 import Banner from "./Banner";
+import TransitionPanel from "./TransitionPanel";
 
-
-const Home = () => {
+const Home = ( beforeafters ) => {
+	
 	return (
 		<>
 			<Logo />
 			<Banner />
+			<TransitionPanel beforeafters={beforeafters}/>
+			<div>
+			
+			</div>
 		</>
 	);
 };

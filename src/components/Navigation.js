@@ -45,7 +45,7 @@ const Navigation = () => {
 							<li>
 								<Nav.Link
 									className="linkText shadow1"
-									href="/home1"
+									href="/home"
 									
 								>
 									Home
