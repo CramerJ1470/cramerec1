@@ -8,6 +8,7 @@ import TransitionPanel from "./TransitionPanel";
 const AboutUs = (beforeafters) => {
 	return (
 		<>
+			<div className="title1">About Us</div>
 			<Logo />
 			<Banner />
 			<TransitionPanel beforeafters={beforeafters} />
