@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "./Logo";
 import Banner from "./Banner";
 import TransitionPanel from "./TransitionPanel";
+import SeeOurWork from "./SeeOurWork";
 
 const Home = ( beforeafters ) => {
 	
@@ -10,9 +11,7 @@ const Home = ( beforeafters ) => {
 			<Logo />
 			<Banner />
 			<TransitionPanel beforeafters={beforeafters}/>
-			<div>
-			
-			</div>
+			<SeeOurWork/>
 		</>
 	);
 };

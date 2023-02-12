@@ -1,5 +1,6 @@
 import React from "react";
 
+
 function OurApproach() {
 	return (
 		<>
@@ -9,7 +10,8 @@ function OurApproach() {
 						<h2>Our Personal Approach</h2>
 					</div>
 					<p>
-						At <strong className="bold">Cramer E Construction</strong>,
+						At{" "}
+						<strong className="bold">Cramer E Construction</strong>,
 						our homes are distinguised by their exceptional
 						craftsmanship. our attention to detail, ongoing level of
 						communication, and responsiveness are truly unique.
@@ -93,6 +95,8 @@ function OurApproach() {
 					</span>
 				</div>
 			</div>
+
+			
 		</>
 	);
 }

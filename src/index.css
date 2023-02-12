@@ -456,7 +456,7 @@ div.scrollinfo {
 
 .guideline {
 	width: 90%;
-	margin-left: %;
+	margin-left: 2%;
 	overflow: none;
 	filter: drop-shadow(0 0 0.5rem black);
 	
@@ -500,6 +500,34 @@ div.scrolltip {
 	
 }
 
+.bottominfo {
+	position: fixed;
+	bottom: 3vh;
+	padding-left: 30%;
+	display: flex;
+	flex-direction: row;
+	filter: drop-shadow(0 0 0.5rem black);
+	
+}
+
+.bottom  {
+	padding-left: 30px;
+}
+
+
+
+
+.ourworklink {
+position: fixed;
+color:white;
+font-size: 30px;
+font-weight: bolder;
+bottom: 10%;
+padding-left: 45%;
+filter: drop-shadow(0 0 0.5rem black);
+
+
+}
 .scrolltip h2 {
 	text-align: center;
 	color: white;
@@ -597,12 +625,19 @@ h1 {
 
 .Footer {
 	position: absolute;
-	top: 90vh;
-	left: 39%;
+	display: flex;
+	bottom: 2vh;
+	width: 100%;
 	font-weight: bolder;
-	color: white;
 	text-align: center;
+	color: white;
 	filter: drop-shadow(0 0 0.75rem black);
+}
+
+.comp {
+	width: 100%;
+	left: 45%;
+	filter: drop-shadow(0 0 0.5rem black);
 }
 .info p {
 	color: white;

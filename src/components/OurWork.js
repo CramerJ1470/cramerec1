@@ -1,4 +1,6 @@
 import React from "react";
+import Banner from "./Banner";
+import Logo from "./Logo";
 
 
 const AboutUs = () => {
@@ -6,8 +8,10 @@ const AboutUs = () => {
 	return (
 		<>
 			<div className="title1">
-			About Us
+			Our Work
 			</div>
+			<Logo />
+			<Banner />
 		</>
 	);
 };
