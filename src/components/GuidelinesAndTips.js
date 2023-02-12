@@ -118,7 +118,7 @@ const GuidelinesAndTips = () => {
 							<h1>3</h1>
 						</div>
 						<div className="rel">
-							<h3 className="about">Not Done Yet</h3>
+							<h3 className="about">Of Course</h3>
 							<ul>
 								<li>
 									<i
