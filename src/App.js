@@ -57,6 +57,8 @@ function App() {
 						element={<GuidelinesAndTips />}
 					/>
 					<Route path="/contactus" element={<ContactUs />} />
+					
+
 				</Routes>
 				<Footer />
 			</div>
