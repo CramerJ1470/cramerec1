@@ -3,7 +3,8 @@ import Banner from "./Banner";
 import Logo from "./Logo";
 import { Navbar, Nav, Container } from "react-bootstrap";
 
-const AboutUs = () => {
+const AboutUs = ({bathrooms}) => {
+	
 	return (
 		<>
 			<div className="title1">Our Work</div>
@@ -47,7 +48,7 @@ const AboutUs = () => {
 					<p className="ourworkbody1">
 						Some of the projects we specialize in include:
 					</p>
-					<span className="sidebyside">
+					<span className="sidebyside1">
 						<ul className="doublelist">
 							<li>
 							<a 	className="worklinks" href="#additions">
@@ -65,8 +66,8 @@ const AboutUs = () => {
 								</a>
 							</li>
 							<li>
-							<a 	className="worklinks" href="#mastersuites">
-									Master Suites
+							<a 	className="worklinks" href="basements">
+									Basements
 								</a>
 							</li>
 						</ul>
@@ -171,8 +172,8 @@ const AboutUs = () => {
 					<a name="Baths">
 					<div className="headp">Baths</div>
 					</a>
-					<a name="mastersuites">
-					<div className="headp">Master Suites</div>
+					<a name="basements">
+					<div className="headp">Basements</div>
 					</a>
 					<a name="dormers">
 					<div className="headp">Dormers</div>

@@ -416,9 +416,18 @@ top: 57.25%;
 	outline: none;
 }
 
+.sidebyside1 {
+	
+	display: flex;
+	position: relative;
+	
+	
+}
+
 .sidebyside {
 	display: flex;
 	position: relative;
+	
 }
 .sidebyside img {
 	padding-right: 20px;
@@ -478,6 +487,12 @@ top: 57.25%;
 	color: white;
 	flex-direction: column;
 	font-size: 25px;
+	background-color: rgba(69, 67, 138, 0.5);
+	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-right: 10px;
+	font-weight: bolder;
+	
 }
 .doublelist li{
 	padding-right: 20px;
@@ -517,7 +532,7 @@ div.scrollinfo {
 	width: 90%;
 	margin-left: 2%;
 	overflow: none;
-	filter: drop-shadow(0 0 0.5rem black);
+	
 }
 .pl20 {
 	padding-left: 80px;
@@ -549,7 +564,7 @@ div.scrolltip {
 	overflow: auto;
 	text-align: justify;
 	padding: 20px;
-	background-color: rgba(13, 6, 213, 0.2);
+	background-color: rgba(9, 6, 122, 0.5);
 	border-radius: 20px 20px 20px 20px;
 }
 
@@ -580,7 +595,7 @@ div.scrolltip {
 	color: white;
 	margin-left: 10%;
 	margin-right: 10%;
-	filter: drop-shadow(0 0 0.5rem black);
+	
 }
 .info {
 	display: flex;
@@ -599,7 +614,7 @@ div.scrolltip {
 	box-sizing: border-box;
 	text-align: center;
 	line-height: 75px;
-	background-color: rgb(77, 167, 216);
+	background-color: rgb(63, 187, 254);
 	color: white;
 	padding-bottom: 30px;
 	display: inline-block;
@@ -665,8 +680,8 @@ h1 {
 }
 
 .worklinks  {
-	filter: drop-shadow(0 0 0.5rem black);
-	color: darkturquoise
+	filter: drop-shadow(0 0 1.5rem rgb(63, 187, 254));
+	color: white
 }
 
 

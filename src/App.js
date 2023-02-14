@@ -10,19 +10,27 @@ import Footer from "./components/Footer";
 
 import { Routes, Route, useParams } from "react-router-dom";
 import React, { useEffect, useState } from "react";
-import { getBeforeafters } from "./services";
+import { getBeforeafters,getBathrooms } from "./services";
 
 import BeforeAftersContext from "./context/BeforeAfters";
+import BathroomsContext from "./context/Bathrooms";
 
 function App() {
 	const [beforeafters, setBeforeafters] = useState([]);
+	const [bathrooms, setBathrooms] = useState([]);
 
 	useEffect(() => {
 		getBeforeafters(setBeforeafters);
 	}, []);
+	useEffect(() => {
+		getBathrooms(setBathrooms);
+	}, []);
 
 	const updateBeforeafters = () => {
 		getBeforeafters(setBeforeafters);
+	};
+	const updateBathrooms = () => {
+		getBathrooms(setBathrooms);
 	};
 
 	return (
@@ -31,6 +39,13 @@ function App() {
 				beforeafters: beforeafters,
 				setBeforeafters,
 				updateBeforeafters,
+			}}
+		>
+			<BathroomsContext.Provider
+			value={{
+				bathrooms: bathrooms,
+				setBathrooms,
+				updateBathrooms,
 			}}
 		>
 			<div className="App">
@@ -50,7 +65,7 @@ function App() {
 						element={<Home1 beforeafters={beforeafters} />}
 					/>
 					<Route path="/aboutus" element={<AboutUs beforeafters={beforeafters}/>} />
-					<Route path="/ourwork" element={<OurWork />} />
+					<Route path="/ourwork" element={<OurWork bathrooms={bathrooms}/>} />
 					<Route path="/products" element={<Products />} />
 					<Route
 						path="/guidelinesandtips"
@@ -62,6 +77,7 @@ function App() {
 				</Routes>
 				<Footer />
 			</div>
+			</BathroomsContext.Provider>
 		</BeforeAftersContext.Provider>
 	);
 }
