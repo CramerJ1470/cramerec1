@@ -17,6 +17,214 @@
 	width: 100%;
 	height: auto;
 }
+@media only screen and (max-width: 365px) {
+	.background1 {
+		background-repeat: repeat;
+		background-size: cover;
+	}
+	.title1 {
+		display: flex;
+		left: 30%;
+	}
+	button.nav-btn.open-btn {
+		display: flex;
+		top: 4%;
+		right: 10%;
+	}
+	.disp {
+		display: flex;
+		flex-direction: row;
+	}
+	.banner.cropped {
+		width: 90%;
+		height: 5%;
+		left: 5%;
+		margin-top: 10%;
+	}
+
+	.Footer {
+		visibility: hidden;
+	}
+	.ourworkbody {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		width: 100%;
+		margin-left: 2.5%;
+	}
+
+	p.headp1 {
+		margin-left:10%;
+		
+	}
+	p.headp {
+		width: 80%;
+		text-align: center;
+	}
+
+	.ourworkbody.headp1 {
+		position: absolute;
+		margin-left:0%;
+	}
+	.down {
+		margin-top: 30%;
+		width: 100%;
+		text-align: justify;
+	}
+	p.ourworkbody1 {
+		margin-left: 2.5%;
+		text-align: justify;
+		width: 90%;
+	}
+
+	.doublelist {
+		padding-top: 0%;
+		padding-bottom: 0%;
+	}
+
+	.sidebyside {
+		flex-direction: column;
+		width: 100%;
+		margin-left: 7.5%;
+	}
+
+	.sidebyside1 {
+		flex-direction: column;
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	.sidebyside img {
+		margin-left: 0%;
+		margin-bottom: 5%;
+		width: 85%;
+	}
+	.below {
+		margin-left: 20%;
+		margin-top: 50%;
+	}
+
+	.cropped {
+		display: inline-block;
+		left: 10%;
+		position: absolute;
+		top: 40%;
+		height: 30px;
+	}
+
+	.center {
+		text-align: center;
+		align-items: center;
+	}
+	.carousel {
+		width: 350px;
+	}
+
+	.image-container {
+		width: 500px;
+		height: 350px;
+	}
+}
+
+@media only screen and (max-width: 380px) {
+	.background1 {
+		background-repeat: repeat;
+		background-size: cover;
+	}
+	.title1 {
+		display: flex;
+		left: 30%;
+	}
+	button.nav-btn.open-btn {
+		display: flex;
+		top: 4%;
+		right: 10%;
+	}
+	.disp {
+		display: flex;
+		flex-direction: row;
+	}
+	.banner.cropped {
+		width: 90%;
+		height: 5%;
+		left: 5%;
+		margin-top: 10%;
+	}
+
+	.Footer {
+		visibility: hidden;
+	}
+	.ourworkbody {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		width: 90%;
+		margin-left: 2.5%;
+	}
+	.headp {
+		margin-left: 5%;
+	}
+
+	.headp1 {
+		margin-left: 15%;
+	}
+	.down {
+		margin-top: 30%;
+		width: 100%;
+		text-align: justify;
+	}
+	p.ourworkbody1 {
+		margin-left: 2.5%;
+		text-align: justify;
+		width: 90%;
+	}
+
+	.doublelist {
+		padding-top: 0%;
+		padding-bottom: 0%;
+	}
+
+	.sidebyside {
+		flex-direction: column;
+	}
+
+	.sidebyside1 {
+		flex-direction: column;
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	.sidebyside img {
+		margin-left: 0%;
+		margin-bottom: 5%;
+		width: 85%;
+	}
+	.below {
+		margin-left: 20%;
+		margin-top: 50%;
+	}
+
+	.cropped {
+		display: inline-block;
+		left: 10%;
+		position: absolute;
+		top: 40%;
+		height: 30px;
+	}
+
+	.center {
+		text-align: center;
+		align-items: center;
+	}
+	.carousel {
+		width: 350px;
+	}
+
+	.image-container {
+		width: 500px;
+		height: 350px;
+	}
+}
 @media only screen and (max-width: 416px) {
 	.background1 {
 		background-repeat: repeat;
@@ -34,7 +242,6 @@
 	.disp {
 		display: flex;
 		flex-direction: row;
-		 
 	}
 	.banner.cropped {
 		width: 90%;
@@ -44,7 +251,7 @@
 	}
 
 	.Footer {
-		visibility:hidden;
+		visibility: hidden;
 	}
 	.ourworkbody {
 		display: flex;
