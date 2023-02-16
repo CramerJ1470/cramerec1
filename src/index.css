@@ -22,13 +22,80 @@
 		background-repeat: repeat;
 		background-size: cover;
 	}
-
-	#logo {
-		display: inline-block;
-		position: absolute;
-		left: 10%;
-		top: 5%;
+	.title1 {
+		display: flex;
+		left: 30%;
 	}
+	button.nav-btn.open-btn {
+		display: flex;
+		top: 4%;
+		right: 10%;
+	}
+	.disp {
+		display: flex;
+		flex-direction: row;
+		 
+	}
+	.banner.cropped {
+		width: 90%;
+		height: 5%;
+		left: 5%;
+		top: 10%;
+	}
+
+	.Footer {
+		visibility:hidden;
+	}
+	.ourworkbody {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		width: 90%;
+		margin-left: 2.5%;
+	}
+	.headp {
+		margin-left: 5%;
+	}
+
+	.headp1 {
+		margin-left: 15%;
+	}
+	.down {
+		margin-top: 30%;
+		width: 100%;
+		text-align: justify;
+	}
+	p.ourworkbody1 {
+		margin-left: 2.5%;
+		text-align: justify;
+		width: 90%;
+	}
+
+	.doublelist {
+		padding-top: 0%;
+		padding-bottom: 0%;
+	}
+
+	.sidebyside {
+		flex-direction: column;
+	}
+
+	.sidebyside1 {
+		flex-direction: column;
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	.sidebyside img {
+		margin-left: 0%;
+		margin-bottom: 5%;
+		width: 85%;
+	}
+	.below {
+		margin-left: 20%;
+		margin-top: 50%;
+	}
+
 	.cropped {
 		display: inline-block;
 		left: 10%;
@@ -292,7 +359,6 @@ top: 57.25%;
 	font-weight: 600;
 	text-align: center;
 	color: white;
-	
 }
 
 .title {
@@ -417,22 +483,16 @@ top: 57.25%;
 }
 
 .sidebyside1 {
-	
 	display: flex;
 	position: relative;
-	
-	
 }
 
 .sidebyside {
 	display: flex;
 	position: relative;
-	
 }
 .sidebyside img {
 	padding-right: 20px;
-	
-	
 }
 
 .image-container {
@@ -451,20 +511,19 @@ top: 57.25%;
 
 .prelim1 {
 	width: 19%;
-	
 }
 
 .container1 {
 	position: relative;
-  }
+}
 
-  .bottomleft {
+.bottomleft {
 	position: absolute;
 	bottom: 8px;
 	left: 16px;
 	font-size: 18px;
 	color: white;
-  } 
+}
 
 .ourworkbody {
 	position: absolute;
@@ -492,13 +551,9 @@ top: 57.25%;
 	padding-top: 10px;
 	padding-right: 10px;
 	font-weight: bolder;
-	
 }
-.doublelist li{
+.doublelist li {
 	padding-right: 20px;
-	
-
-	
 }
 
 .approach {
@@ -532,7 +587,6 @@ div.scrollinfo {
 	width: 90%;
 	margin-left: 2%;
 	overflow: none;
-	
 }
 .pl20 {
 	padding-left: 80px;
@@ -595,7 +649,6 @@ div.scrolltip {
 	color: white;
 	margin-left: 10%;
 	margin-right: 10%;
-	
 }
 .info {
 	display: flex;
@@ -670,6 +723,16 @@ h1 {
 	filter: drop-shadow(0 0 1.5rem black);
 }
 
+.headp1 {
+	color: white;
+	width: 100%;
+	opacity: 0.9;
+	font-size: 25px;
+	font-weight: bold;
+	padding-left: 0px;
+	filter: drop-shadow(0 0 1.5rem black);
+}
+
 .worklinks a {
 	color: turquoise;
 }
@@ -679,11 +742,10 @@ h1 {
 	font-weight: bolder;
 }
 
-.worklinks  {
+.worklinks {
 	filter: drop-shadow(0 0 1.5rem rgb(63, 187, 254));
-	color: white
+	color: white;
 }
-
 
 .space50 {
 	bottom: 50px;

@@ -3,16 +3,18 @@ import Banner from "./Banner";
 import Logo from "./Logo";
 import { Navbar, Nav, Container } from "react-bootstrap";
 
-const AboutUs = ({bathrooms}) => {
-	
+const AboutUs = ({ bathrooms }) => {
 	return (
 		<>
-			<div className="title1">Our Work</div>
-			<Logo />
-			<Banner />
+			{" "}
+			<span className="disp">
+				<div className="title1">Our Work</div>
+				<Logo />
+				<Banner />
+			</span>
 			<div>
 				<div className="ourworkbody">
-					<p className="headp">Remodeling Services</p>
+					<p className="headp1">Remodeling Services</p>
 					<span className="sidebyside">
 						<img
 							src="https://live.staticflickr.com/65535/52667463351_339a7397a1_w.jpg"
@@ -26,69 +28,70 @@ const AboutUs = ({bathrooms}) => {
 							src="https://live.staticflickr.com/65535/52685230507_b26bfc656a_n.jpg"
 							alt="beth"
 						/>
-						<img
+						{/* <img
 							src="https://live.staticflickr.com/65535/52668032940_cd4bb5c13c_n.jpg"
 							alt="beth"
-						/>
+						/> */}
 					</span>
-
-					<p className="ourworkbody1">
-						We specialize in tranforming and enhancing existing fine
-						homes into even more beautiful and functional living
-						spaces. Whether your needs involve and interior
-						renovation, a room addition or en entirely new floor
-						plan, our team can make it happen.
-					</p>
-					<p className="ourworkbody1">
-						We also offer full preliminary design capabilities and
-						will walk you through an extensive planning and budget
-						process before every project, so there won't be
-						surprises or hidden costs.
-					</p>
-					<p className="ourworkbody1">
-						Some of the projects we specialize in include:
-					</p>
+					<div className="down">
+						<p className="ourworkbody1">
+							We specialize in tranforming and enhancing existing
+							fine homes into even more beautiful and functional
+							living spaces. Whether your needs involve and
+							interior renovation, a room addition or en entirely
+							new floor plan, our team can make it happen.
+						</p>
+						<p className="ourworkbody1">
+							We also offer full preliminary design capabilities
+							and will walk you through an extensive planning and
+							budget process before every project, so there won't
+							be surprises or hidden costs.
+						</p>
+						<p className="ourworkbody1">
+							Some of the projects we specialize in include:
+						</p>
+					</div>
 					<span className="sidebyside1">
 						<ul className="doublelist">
 							<li>
-							<a 	className="worklinks" href="#additions">
+								<a className="worklinks" href="#additions">
 									Additions
 								</a>
 							</li>
 							<li>
-							<a 	className="worklinks" href="#kitchens">
+								<a className="worklinks" href="#kitchens">
 									Kitchens
 								</a>
 							</li>
 							<li>
-							<a 	className="worklinks" href="#baths">
+								<a className="worklinks" href="#baths">
 									Baths
 								</a>
 							</li>
 							<li>
-							<a 	className="worklinks" href="basements">
+								<a className="worklinks" href="basements">
 									Basements
 								</a>
 							</li>
 						</ul>
 						<ul className="doublelist">
 							<li>
-							<a 	className="worklinks" href="#dormers">
+								<a className="worklinks" href="#dormers">
 									Dormers
 								</a>
 							</li>
 							<li>
-								<a 	className="worklinks" href="#interiors">
+								<a className="worklinks" href="#interiors">
 									Interiors
 								</a>
 							</li>
 							<li>
-							<a 	className="worklinks" href="#exteriors">
+								<a className="worklinks" href="#exteriors">
 									Exteriors
 								</a>
 							</li>
 							<li>
-							<a 	className="worklinks" href="#uniquefeatures">
+								<a className="worklinks" href="#uniquefeatures">
 									Unique Features
 								</a>
 							</li>
@@ -129,7 +132,7 @@ const AboutUs = ({bathrooms}) => {
 							label="designed by Cramer"
 						/>
 					</span>
-					<p className="ourworkbody1">
+					<p className="ourworkbody1 below">
 						******(3) Projects shown above designed by Cramer E
 						Construction LLC only (consulting)
 					</p>
@@ -164,31 +167,33 @@ const AboutUs = ({bathrooms}) => {
 					</p>
 					<p className="ourworkbody1">Thank You for stopping by!</p>
 					<a name="additions">
-					<div className="headp">Additions</div>
+						<div className="headp">Additions</div>
 					</a>
 					<a name="kitchens">
-					<div className="headp">Kitchens</div>
+						<div className="headp">Kitchens</div>
 					</a>
 					<a name="Baths">
-					<div className="headp">Baths</div>
+						<div className="headp">Baths</div>
 					</a>
 					<a name="basements">
-					<div className="headp">Basements</div>
+						<div className="headp">Basements</div>
 					</a>
 					<a name="dormers">
-					<div className="headp">Dormers</div>
+						<div className="headp">Dormers</div>
 					</a>
 					<a name="interiors">
-					<div className="headp">Interiors</div>
+						<div className="headp">Interiors</div>
 					</a>
 					<a name="exteriors">
-					<div className="headp">Exteriors</div>
+						<div className="headp">Exteriors</div>
 					</a>
 					<a name="uniquefeatures">
-					<div className="headp">Unique Features</div>
+						<div className="headp">Unique Features</div>
+					</a>
+					<a className="headp" href="/contactus">
+						Contact Us
 					</a>
 				</div>
-				
 			</div>
 		</>
 	);
