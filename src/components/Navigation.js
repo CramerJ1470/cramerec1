@@ -41,7 +41,7 @@ const Navigation = () => {
 							<i className="fas fa-times"></i>
 						</button>
 
-						<ul className=" list">
+						<ul className="list">
 							<li>
 								<Nav.Link
 									className="linkText shadow1"
