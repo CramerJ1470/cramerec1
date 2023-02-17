@@ -314,7 +314,9 @@
 	}
 	div.carousel {
 		width: 80%;
+		height: auto;
 		left: 10%;
+		overflow:hidden;
 	}
 
 	.caseTitle {
@@ -611,8 +613,8 @@ top: 57.25%;
 
 .carousel img {
 	width: 100%;
-
-	object-fit: cover;
+	height:auto;
+	
 }
 
 .caseTitle {
