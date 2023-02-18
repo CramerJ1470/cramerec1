@@ -241,7 +241,7 @@
 	button.nav-btn.open-btn {
 		display: flex;
 		top: 4%;
-		right: 2.5%;
+		right: 0%;
 		font-size:70px;
 	}
 	.disp {
