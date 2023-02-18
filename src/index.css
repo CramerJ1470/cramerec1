@@ -233,6 +233,7 @@ html, body {
 	.carousel {
 		width: 350px;
 		overflow:hidden;
+		position:fixed;
 	}
 
 	.image-container {
@@ -342,6 +343,7 @@ html, body {
 		height: auto;
 		left: 10%;
 		overflow:hidden;
+		
 		
 	}
 
