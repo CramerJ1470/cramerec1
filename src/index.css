@@ -230,6 +230,9 @@
 		background-repeat: repeat;
 		background-size: cover;
 	}
+	.linkText {
+	margin-top: 0.5rem;	
+	}
 
 	img#logo {
 		width: 25%;
