@@ -115,8 +115,9 @@
 		text-align: center;
 		align-items: center;
 	}
-	.carousel {
+	div.carousel {
 		width: 350px;
+		overflow:hidden;
 	}
 
 	.image-container {
@@ -221,6 +222,7 @@
 	}
 	.carousel {
 		width: 350px;
+		overflow:hidden;
 	}
 
 	.image-container {
@@ -235,7 +237,8 @@
 		background-size: cover;
 	}
 	.linkText {
-	margin-top: 0rem;	
+	margin-top: 0rem;
+	text-align: center;
 	}
 
 	img#logo {
