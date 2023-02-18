@@ -232,7 +232,7 @@ html, body {
 	}
 	.carousel {
 		width: 350px;
-		overflow:hidden;
+		overflow-x:hidden;
 		position:fixed;
 	}
 
