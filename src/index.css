@@ -18,6 +18,11 @@
 	height: auto;
 }
 @media only screen and (max-width: 365px) {
+
+	html, body {
+		overflow-x:hidden 
+	  } 
+
 	.background1 {
 		background-repeat: repeat;
 		background-size: cover;
@@ -127,6 +132,11 @@
 }
 
 @media only screen and (max-width: 380px) {
+	
+
+html, body {
+  overflow-x:hidden 
+} 
 	.background1 {
 		background-repeat: repeat;
 		background-size: cover;
@@ -232,6 +242,11 @@
 }
 
 @media only screen and (max-width: 415px) {
+	html, body {
+		overflow-x:hidden 
+	  } 
+
+
 	.background1 {
 		background-repeat: repeat;
 		background-size: cover;
