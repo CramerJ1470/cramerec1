@@ -54,7 +54,7 @@ const AboutUs = ({ bathrooms }) => {
 					<span className="sidebyside1">
 						<ul className="doublelist">
 							<li>
-								<a className="worklinks" href="#additions">
+								<a className="worklinks" href="/additions">
 									Additions
 								</a>
 							</li>
@@ -76,7 +76,7 @@ const AboutUs = ({ bathrooms }) => {
 						</ul>
 						<ul className="doublelist">
 							<li>
-								<a className="worklinks" href="#dormers">
+								<a className="worklinks" href="/dormers">
 									Dormers
 								</a>
 							</li>

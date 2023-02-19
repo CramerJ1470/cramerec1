@@ -643,6 +643,17 @@ top: 57.25%;
 	width: 100%;
 	height:auto;
 	
+	
+}
+
+.carousel1 img {
+	width: 100%;
+	height: auto;
+	
+	 
+	
+	
+	
 }
 
 .caseTitle {
@@ -666,7 +677,20 @@ top: 57.25%;
 	border: solid 5px white;
 	filter: drop-shadow(0 0 2.5rem black);
 	flex-wrap: nowrap;
-	overflow: hidden;
+	overflow-x: hidden;
+}
+
+.carousel1 {
+	display: flex;
+	position: absolute;
+	top: 30%;
+	left: 35%;
+	height: 51%;
+	width: 30%;
+	border: solid 5px white;
+	filter: drop-shadow(0 0 2.5rem black);
+	flex-wrap: nowrap;
+	overflow-x: hidden;
 }
 .buttons-container {
 	display: flex;
@@ -674,6 +698,12 @@ top: 57.25%;
 }
 
 .horizontal {
+	display: flex;
+	
+	flex-wrap: nowrap;
+}
+
+.horizontal1 {
 	display: flex;
 	flex-wrap: nowrap;
 }

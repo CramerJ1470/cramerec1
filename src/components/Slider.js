@@ -15,6 +15,7 @@ const Slider = (beforeafters) => {
 			
 
 			<div className="buttons-container">
+				
 				<button id="left" className="btn1">
 					Prev
 				</button>
