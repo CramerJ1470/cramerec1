@@ -1,12 +1,12 @@
 import React from "react";
 
 
-function PageCarouselImages({dormers}) {
-	console.log(dormers);
+function PageCarouselImages({panelinfo}) {
+	console.log(	`pci:`,panelinfo);
 
 	var imagesHtml = '<div class="image-container" id="imgs">';
 
-	var data = dormers.dormers.dormer;
+	var data = panelinfo;
 	let imageList = [];
     console.log(`data:`,data);
 	data.map((image) => {return imageList.push(image.src);});

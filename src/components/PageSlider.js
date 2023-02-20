@@ -1,10 +1,10 @@
 import React from "react";
 import PageCarouselImages from "./PageCarouselImages";
 
-const PanelSlider = (dormers) => {
+const PanelSlider = ({panelinfo}) => {
 	//console.log(`Slider BA:`, beforeafters.beforeafters);
 	
-    console.log(`dormers:`,dormers);
+    console.log(`panelinfo:`,panelinfo);
 	//console.log(data.beforeafters);
 
 	
@@ -12,7 +12,7 @@ const PanelSlider = (dormers) => {
 	return (
 		<div className="carousel">
 			
-            <PageCarouselImages dormers={dormers}/>
+            <PageCarouselImages panelinfo={panelinfo}/>
 			
 
 			<div className="buttons-container">

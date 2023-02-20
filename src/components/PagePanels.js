@@ -1,10 +1,10 @@
 import React from "react";
 import PageSlider from "./PageSlider";
 
-const PagePanels = (dormers) => {
+const PagePanels = ({panelinfo}) => {
 	return (
 		<div>
-			<PageSlider dormers={dormers} />
+			<PageSlider panelinfo={panelinfo} />
 		</div>
 	);
 };

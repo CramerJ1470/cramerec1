@@ -59,17 +59,17 @@ const AboutUs = ({ bathrooms }) => {
 								</a>
 							</li>
 							<li>
-								<a className="worklinks" href="#kitchens">
+								<a className="worklinks" href="/kitchens">
 									Kitchens
 								</a>
 							</li>
 							<li>
-								<a className="worklinks" href="#baths">
+								<a className="worklinks" href="/baths">
 									Baths
 								</a>
 							</li>
 							<li>
-								<a className="worklinks" href="basements">
+								<a className="worklinks" href="/basements">
 									Basements
 								</a>
 							</li>
@@ -81,17 +81,17 @@ const AboutUs = ({ bathrooms }) => {
 								</a>
 							</li>
 							<li>
-								<a className="worklinks" href="#interiors">
+								<a className="worklinks" href="/interiors">
 									Interiors
 								</a>
 							</li>
 							<li>
-								<a className="worklinks" href="#exteriors">
+								<a className="worklinks" href="/exteriors">
 									Exteriors
 								</a>
 							</li>
 							<li>
-								<a className="worklinks" href="#uniquefeatures">
+								<a className="worklinks" href="/uniquefeatures">
 									Unique Features
 								</a>
 							</li>

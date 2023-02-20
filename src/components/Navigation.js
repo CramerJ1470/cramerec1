@@ -44,7 +44,7 @@ const Navigation = () => {
 						<ul className="list">
 							<li>
 								<Nav.Link
-									className="linkText shadow1"
+									className="linkText bold"
 									href="/home"
 									
 								>
@@ -53,7 +53,7 @@ const Navigation = () => {
 							</li>
 							<li>
 								<Nav.Link
-									className="linkText shadow1"
+									className="linkText bold"
 									href="/aboutus"
 								>
 									About Us
@@ -61,7 +61,7 @@ const Navigation = () => {
 							</li>
 							<li>
 								<Nav.Link
-									className="linkText shadow1"
+									className="linkText bold"
 									href="/ourwork"
 								>
 									Our Work
@@ -70,7 +70,7 @@ const Navigation = () => {
 
 							<li>
 								<Nav.Link
-									className="linkText shadow1"
+									className="linkText bold"
 									href="/products"
 								>
 									Products
@@ -78,7 +78,7 @@ const Navigation = () => {
 							</li>
 							<li>
 								<Nav.Link
-									className="linkText shadow1"
+									className="linkText bold"
 									href="/guidelinesandtips"
 								>
 									Guidelines and Tips
@@ -86,7 +86,7 @@ const Navigation = () => {
 							</li>
 							<li>
 								<Nav.Link
-									className="linkText shadow1"
+									className="linkText bold"
 									href="/contactus"
 								>
 									Contact Us

@@ -3,16 +3,16 @@ import Logo from "./Logo";
 import Banner from "./Banner";
 import PagePanels from "./PagePanels";
 
-const Dormers1 = ({ dormers} ) => {
+const Uniquefeatures = ({ uniquefeatures} ) => {
 	
-	console.log(dormers);
+	console.log(uniquefeatures);
 	return (
 		<>
 			<Logo />
 			<Banner />
-			<PagePanels panelinfo={dormers}/>
+			<PagePanels panelinfo={uniquefeatures}/>
 		</>
 	);
 };
 
-export default Dormers1;
+export default Uniquefeatures;
