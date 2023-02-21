@@ -9,8 +9,11 @@ const Baths = ({ baths} ) => {
 	console.log(baths);
 	return (
 		<>
-			<Logo />
-			<Banner />
+			<span className="disp">
+				<div className="title1">Baths</div>
+				<Logo />
+				<Banner />
+			</span>
 			<VertPagePanels panelinfo={baths}/>
 			
 		</>

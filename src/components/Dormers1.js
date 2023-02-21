@@ -8,8 +8,11 @@ const Dormers1 = ({ dormers} ) => {
 	console.log(dormers);
 	return (
 		<>
-			<Logo />
-			<Banner />
+			<span className="disp">
+				<div className="title1">Dormers</div>
+				<Logo />
+				<Banner />
+			</span>
 			<PagePanels panelinfo={dormers}/>
 		</>
 	);

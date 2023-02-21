@@ -8,8 +8,11 @@ const Exteriors = ({ exteriors} ) => {
 	console.log(exteriors);
 	return (
 		<>
-			<Logo />
-			<Banner />
+			<span className="disp">
+				<div className="title1">Exteriors</div>
+				<Logo />
+				<Banner />
+			</span>
 			<PagePanels panelinfo={exteriors}/>
 		</>
 	);

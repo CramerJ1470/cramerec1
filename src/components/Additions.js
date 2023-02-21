@@ -8,8 +8,11 @@ const Additions = ({ additions} ) => {
 	console.log(additions);
 	return (
 		<>
-			<Logo />
-			<Banner />
+			<span className="disp">
+				<div className="title1">Additions</div>
+				<Logo />
+				<Banner />
+			</span>
 			<PagePanels panelinfo={additions}/>
 		</>
 	);

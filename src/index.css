@@ -204,6 +204,11 @@
 		margin: 0;
 	}
 
+	div.vertcarousel {
+		width: 85%;
+		left: 7.5%;
+	}
+
 	.linkText {
 		margin-top: 0rem;
 	}
@@ -816,10 +821,7 @@ top: 57.25%;
 	height: auto;
 }
 
-div.vertcarousel {
-	width: 85%;
-	left: 7.5%;
-}
+
 .carousel1 img {
 	width: 100%;
 	height: auto;

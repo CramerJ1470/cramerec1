@@ -8,9 +8,11 @@ const Interiors = ({ interiors }) => {
 	console.log(interiors);
 	return (
 		<>
-			<Logo />
-			<Banner />
-
+			<span className="disp">
+				<div className="title1">Interiors</div>
+				<Logo />
+				<Banner />
+			</span>
 			<PagePanels panelinfo={interiors} vert={vert} />
 		</>
 	);
