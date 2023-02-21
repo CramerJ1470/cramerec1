@@ -5,7 +5,7 @@ import Logo from "./Logo";
 import Banner from "./Banner"; 
 export function navOpen() {
 	const open_btn = document.querySelector(".open-btn");
-	console.log(open_btn);
+	
 	const close_btn = document.querySelector(".close-btn");
 	const nav = document.querySelectorAll(".nav");
 	open_btn.addEventListener("click", () => {

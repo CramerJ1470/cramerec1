@@ -5,15 +5,6 @@ import Navigation from "./Navigation";
 
 let navOpenPlease = false;
 
-
-
-function navOpen() {
-	navOpenPlease = true;
-	console.log("Hello");
-	navOpenPlease = true;
-	return true;
-}
-
 const NavbarToggled = (navOpenPlease) => {
 	const open_btn = document.querySelector(".open-btn");
 	console.log(open_btn);
@@ -25,8 +16,6 @@ const NavbarToggled = (navOpenPlease) => {
 	close_btn.addEventListener("click", () => {
 		nav.forEach((nav_el) => nav_el.classList.remove("visible"));
 	});
-
-
 
 	return (
 		<>
