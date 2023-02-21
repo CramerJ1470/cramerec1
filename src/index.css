@@ -12,6 +12,9 @@
 	100% {
 		transform: translateX(0px);
 	}
+	div.nav {
+		height: auto;
+	}
 }
 .WebContainer {
 	width: 100%;
@@ -21,6 +24,11 @@
 	html,
 	body {
 		overflow-x: hidden;
+	}
+
+	.disp div.title1 {
+		position: absolute;
+		top: 15%;
 	}
 
 	.background1 {
@@ -133,6 +141,40 @@
 		width: 500px;
 		height: 350px;
 	}
+	div.nav {
+		height: auto;
+	}
+
+	div.approach {
+		top: 60%;
+		height: auto;
+		width: 85%;
+		border: none;
+		filter: drop-shadow(0 0 0.5rem black);
+	}
+
+	.approach h2 {
+		margin-left: 20%;
+		text-align: center;
+	}
+
+	div.personalprocess {
+		display: flex;
+		position: absolute;
+		top: 110%;
+		width: 100%;
+		height: 100%;
+		left: 0;
+	}
+
+	div.personalprocess div.scrollinfo {
+		width: 95%;
+		height: auto;
+	}
+
+	.worklinkdiv {
+		visibility: hidden;
+	}
 }
 
 @media only screen and (max-width: 380px) {
@@ -144,7 +186,11 @@
 		background-repeat: repeat;
 		background-size: cover;
 	}
-	
+
+	.disp div.title1 {
+		position: absolute;
+		top: 15%;
+	}
 
 	.scrolltip p {
 		width: 130%;
@@ -285,6 +331,39 @@
 		font-size: 15px;
 		font-weight: bolder;
 	}
+	div.nav {
+		height: auto;
+	}
+	div.approach {
+		top: 60%;
+		height: auto;
+		width: 85%;
+		border: none;
+		filter: drop-shadow(0 0 0.5rem black);
+	}
+
+	.approach h2 {
+		margin-left: 20%;
+		text-align: center;
+	}
+
+	div.personalprocess {
+		display: flex;
+		position: absolute;
+		top: 110%;
+		width: 100%;
+		height: 100%;
+		left: 0;
+	}
+
+	div.personalprocess div.scrollinfo {
+		width: 95%;
+		height: auto;
+	}
+
+	.worklinkdiv {
+		visibility: hidden;
+	}
 }
 
 @media only screen and (max-width: 415px) {
@@ -292,7 +371,14 @@
 	body {
 		overflow-x: hidden;
 	}
+	div.nav {
+		height: auto;
+	}
 
+	.disp div.title1 {
+		position: absolute;
+		top: 15%;
+	}
 	.background1 {
 		background-repeat: repeat;
 		background-size: cover;
@@ -406,6 +492,37 @@
 	}
 	ul.list {
 		padding-top: 0%;
+	}
+
+	div.approach {
+		top: 60%;
+		height: auto;
+		width: 85%;
+		border: none;
+		filter: drop-shadow(0 0 0.5rem black);
+	}
+
+	.approach h2 {
+		margin-left: 20%;
+		text-align: center;
+	}
+
+	div.personalprocess {
+		display: flex;
+		position: absolute;
+		top: 110%;
+		width: 100%;
+		height: 100%;
+		left: 0;
+	}
+
+	div.personalprocess div.scrollinfo {
+		width: 95%;
+		height: auto;
+	}
+
+	.worklinkdiv {
+		visibility: hidden;
 	}
 }
 
@@ -1237,4 +1354,8 @@ div .clicklogo {
 	z-index: 600;
 	font-weight: bolder;
 	filter: drop-shadow(0 0 2rem darkturquoise);
+}
+
+.bigcen {
+	margin-left: 35%;
 }

@@ -10,11 +10,16 @@ import SeeOurWork from "./SeeOurWork";
 const AboutUs = (beforeafters) => {
 	return (
 		<>
-			<div className="title1">About Us</div>
-			<Logo />
-			<Banner />
-			<TransitionPanel beforeafters={beforeafters} />
-			<OurApproach />
+			<span className="disp">
+				<div className="title1">About US</div>
+				<Logo />
+				<Banner />
+			</span>
+			<div className="aboutus">
+				<TransitionPanel beforeafters={beforeafters} />
+
+				<OurApproach />
+			</div>
 			<SeeOurWork/>
 		</>
 	);

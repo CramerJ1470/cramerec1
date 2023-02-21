@@ -6,7 +6,7 @@ function OurApproach() {
 		<>
 			<div>
 				<div className="approach">
-					<div>
+					<div >
 						<h2>Our Personal Approach</h2>
 					</div>
 					<p>
@@ -25,7 +25,8 @@ function OurApproach() {
 						<li>Construction</li>
 					</ul>
 				</div>
-				<div className="scrollinfo">
+				<div className="personalprocess">
+					<div className="scrollinfo">
 					<span className="info">
 						<div className="infocircle">
 							<h1>1</h1>
@@ -92,8 +93,14 @@ function OurApproach() {
 								We stand behind all our work.
 							</p>
 						</div>
+
 					</span>
+					<a className="worklinks bigcen" href="/ourwork">
+									<strong>See Out Work</strong>
+								</a>
 				</div>
+			</div>
+			
 			</div>
 
 			
