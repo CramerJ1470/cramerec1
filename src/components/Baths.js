@@ -1,7 +1,8 @@
 import React from "react";
 import Logo from "./Logo";
 import Banner from "./Banner";
-import PagePanels from "./PagePanels";
+import VertPagePanels from "./VertPagePanels";
+
 
 const Baths = ({ baths} ) => {
 	
@@ -10,7 +11,8 @@ const Baths = ({ baths} ) => {
 		<>
 			<Logo />
 			<Banner />
-			<PagePanels panelinfo={baths}/>
+			<VertPagePanels panelinfo={baths}/>
+			
 		</>
 	);
 };

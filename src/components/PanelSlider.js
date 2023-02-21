@@ -1,7 +1,8 @@
 import React from "react";
 import PageCarouselImages from "./PageCarouselImages";
 
-const PanelSlider = ({panelinfo}) => {
+const PanelSlider = ({panelinfo, vert
+}) => {
 	//console.log(`Slider BA:`, beforeafters.beforeafters);
 	
     console.log(`panelinfo:`,panelinfo);
@@ -10,9 +11,9 @@ const PanelSlider = ({panelinfo}) => {
 	
    
 	return (
-		<div className="carousel">
+		<div className="carousel" id="carousel">
 			
-            <PageCarouselImages panelinfo={panelinfo}/>
+            <PageCarouselImages panelinfo={panelinfo} vert={vert}/>
 			
 
 			<div className="buttons-container">

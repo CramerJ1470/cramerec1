@@ -1,10 +1,10 @@
 import React from "react";
-import PageSlider from "./PageSlider";
+import PanelSlider from "./PanelSlider";
 
-const PagePanels = ({panelinfo}) => {
+const PagePanels = ({panelinfo, vert}) => {
 	return (
 		<div>
-			<PageSlider panelinfo={panelinfo} />
+			<PanelSlider panelinfo={panelinfo} vert= {vert} />
 		</div>
 	);
 };

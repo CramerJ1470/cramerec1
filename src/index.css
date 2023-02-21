@@ -642,18 +642,16 @@ top: 57.25%;
 .carousel img {
 	width: 100%;
 	height:auto;
-	
-	
+}
+
+.vertcarousel img {
+	width: 100%;
+	height:auto;
 }
 
 .carousel1 img {
 	width: 100%;
 	height: auto;
-	
-	 
-	
-	
-	
 }
 
 .caseTitle {
@@ -680,13 +678,13 @@ top: 57.25%;
 	overflow-x: hidden;
 }
 
-.carousel1 {
+.vertcarousel {
 	display: flex;
 	position: absolute;
 	top: 30%;
-	left: 35%;
+	left:40%;
 	height: 51%;
-	width: 30%;
+	width: 20%;
 	border: solid 5px white;
 	filter: drop-shadow(0 0 2.5rem black);
 	flex-wrap: nowrap;
@@ -778,7 +776,7 @@ top: 57.25%;
 .image-container {
 	display: flex;
 	width: 100%;
-	height: 95%;
+	height: 100%;
 	transform: translateX(0);
 	transition: transform 0.8s ease-in-out;
 }
@@ -960,6 +958,10 @@ div.scrolltip {
 	width: 75px;
 	text-align: center;
 	filter: drop-shadow(0 0 0.5rem black);
+}
+
+.vertical1 {
+	width: 40%;
 }
 
 h1 {

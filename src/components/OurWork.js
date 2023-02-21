@@ -166,33 +166,6 @@ const AboutUs = ({ bathrooms }) => {
 						can trust.
 					</p>
 					<p className="ourworkbody1">Thank You for stopping by!</p>
-					<a name="additions">
-						<div className="headp">Additions</div>
-					</a>
-					<a name="kitchens">
-						<div className="headp">Kitchens</div>
-					</a>
-					<a name="Baths">
-						<div className="headp">Baths</div>
-					</a>
-					<a name="basements">
-						<div className="headp">Basements</div>
-					</a>
-					<a name="dormers">
-						<div className="headp">Dormers</div>
-					</a>
-					<a name="interiors">
-						<div className="headp">Interiors</div>
-					</a>
-					<a name="exteriors">
-						<div className="headp">Exteriors</div>
-					</a>
-					<a name="uniquefeatures">
-						<div className="headp">Unique Features</div>
-					</a>
-					<a className="headp" href="/contactus">
-						Contact Us
-					</a>
 				</div>
 			</div>
 		</>

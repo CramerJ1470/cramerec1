@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function PageCarouselImages({panelinfo, vert}) {
+function VertPageCarouselImages({panelinfo, vert}) {
 	console.log(	`pci:`,panelinfo);
 
 	var imagesHtml = '<div class="image-container" id="imgs">';
@@ -90,4 +90,4 @@ function PageCarouselImages({panelinfo, vert}) {
 }
 
 
-export default PageCarouselImages;
+export default VertPageCarouselImages;
