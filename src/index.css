@@ -120,6 +120,7 @@
 		width: 350px;
 	}
 
+
 	.cropped {
 		display: inline-block;
 		left: 10%;
@@ -186,6 +187,8 @@
 		background-repeat: repeat;
 		background-size: cover;
 	}
+
+
 
 	.disp div.title1 {
 		position: absolute;
@@ -364,6 +367,8 @@
 	.worklinkdiv {
 		visibility: hidden;
 	}
+
+
 }
 
 @media only screen and (max-width: 415px) {
@@ -811,6 +816,10 @@ top: 57.25%;
 	height: auto;
 }
 
+div.vertcarousel {
+	width: 85%;
+	left: 7.5%;
+}
 .carousel1 img {
 	width: 100%;
 	height: auto;
@@ -1358,4 +1367,5 @@ div .clicklogo {
 
 .bigcen {
 	margin-left: 35%;
+	
 }
