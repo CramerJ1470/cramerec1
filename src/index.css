@@ -144,10 +144,7 @@
 		background-repeat: repeat;
 		background-size: cover;
 	}
-	.title1 {
-		display: flex;
-		left: 30%;
-	}
+	
 
 	.scrolltip p {
 		width: 130%;
@@ -309,7 +306,6 @@
 		width: 25%;
 	}
 	.title1 {
-		display: flex;
 		left: 30%;
 	}
 
@@ -655,7 +651,7 @@ top: 57.25%;
 	position: relative;
 	top: 2rem;
 	font-size: 2rem;
-	font-weight: 100;
+	font-weight: 600;
 	text-align: center;
 	color: white;
 }
@@ -1031,7 +1027,6 @@ p.movedover {
 	color: white;
 	font-size: 15px;
 	font-weight: bolder;
-
 }
 
 .rel {
