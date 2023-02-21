@@ -5,14 +5,15 @@ import Banner from "./Banner";
 const GuidelinesAndTips = () => {
 	return (
 		<>
-			<div className="title1">Guidelines and Tips</div>
-
-			<Logo />
-			<Banner />
-			<div className="blackbackground">
-				<div className="scrolltip">
+			<span className="disp">
+				<div className="title1">Our Work</div>
+				<Logo />
+				<Banner />
+			</span>
+			 <div className="otter">
+				<div className="scrolltip ">
 					<h2>
-						TIPS FOR HOMEOWNERS THAT CAN LESSEN THE STRESS<br></br>{" "}
+						TIPS FOR HOMEOWNERS THAT CAN LESSEN THE STRESS<br></br>
 						OF A REMODELING PROJECT
 					</h2>
 
@@ -46,9 +47,11 @@ const GuidelinesAndTips = () => {
 										<strong>No Water or Power</strong>
 									</li>
 								</ul>
+								</div>
+								</span>	
 								<p className="movedover">
 									Know in advance if and when the workers plan
-									to shut off your powwr and water.You can
+									to shut off your power and water.You can
 									avoid food spoilage in the
 									refrigerator/freezer. Also, be prepared by
 									having a supply of bottled water on hand.
@@ -59,7 +62,7 @@ const GuidelinesAndTips = () => {
 											class="fa fa-caret-right"
 											aria-hidden="true"
 										></i>
-										<strong>
+										<strong className= "guidestrong">
 											Create a Phased List of Procedures
 										</strong>
 									</li>
@@ -76,7 +79,7 @@ const GuidelinesAndTips = () => {
 											class="fa fa-caret-right"
 											aria-hidden="true"
 										></i>
-										<strong>
+											<strong className= "guidestrong">
 											Make an Extra Key or Create a
 											Temporary Security Code
 										</strong>
@@ -93,8 +96,8 @@ const GuidelinesAndTips = () => {
 									code. Don't forget to ask who will take
 									responsibility for any mishaps.
 								</p>
-							</div>
-						</span>
+							
+						
 						<span className="info">
 							<div className="infocircle">
 								<h1>2</h1>
@@ -109,9 +112,13 @@ const GuidelinesAndTips = () => {
 											class="fa fa-caret-right"
 											aria-hidden="true"
 										></i>
+										<strong>
 										Is That The Right Color?
+										</strong>
 									</li>
 								</ul>
+								</div>
+								</span>
 								<p className="movedover">
 									Once the cabinets, baseboards are installed,
 									there's no turning back (or at least it can
@@ -128,7 +135,9 @@ const GuidelinesAndTips = () => {
 											class="fa fa-caret-right"
 											aria-hidden="true"
 										></i>
+										<strong className= "guidestrong">
 										'Don't Plan to Buy as You Go'
+										</strong>
 									</li>
 								</ul>
 								<p className="movedover">
@@ -137,8 +146,8 @@ const GuidelinesAndTips = () => {
 									delays by selecting all materials with your
 									contractor in advance.
 								</p>
-							</div>
-						</span>
+							
+						
 						<span className="info">
 							<div className="infocircle">
 								<h1>3</h1>
@@ -153,9 +162,13 @@ const GuidelinesAndTips = () => {
 											class="fa fa-caret-right"
 											aria-hidden="true"
 										></i>
+										<strong className= "guidestrong">
 										Cover Furniture and Carpeting
+										</strong>
 									</li>
 								</ul>
+								</div>
+								</span>
 								<p className="movedover">
 									Your contractor will take the necessary
 									steps to portect and cover the work area,
@@ -171,7 +184,9 @@ const GuidelinesAndTips = () => {
 											class="fa fa-caret-right"
 											aria-hidden="true"
 										></i>
+										<strong className= "guidestrong">
 										Dry Clean Drapes, Rugs and Upholstery
+										</strong>
 									</li>
 								</ul>
 								<p className="movedover">
@@ -188,7 +203,9 @@ const GuidelinesAndTips = () => {
 											class="fa fa-caret-right"
 											aria-hidden="true"
 										></i>
+										<strong className= "guidestrong">
 										Store Breakables
+										</strong>
 									</li>
 								</ul>
 								<p className="movedover">
@@ -202,8 +219,7 @@ const GuidelinesAndTips = () => {
 									clean each knick knacj after the work is
 									complete.
 								</p>
-							</div>
-						</span>
+						
 						<span className="info">
 							<div className="infocircle">
 								<h1>4</h1>
@@ -218,9 +234,12 @@ const GuidelinesAndTips = () => {
 											class="fa fa-caret-right"
 											aria-hidden="true"
 										></i>
+										<strong className= "guidestrong">
 										Safety First
+										</strong>
 									</li>
 								</ul>
+								</div></span>
 								<p className="movedover">
 									Keep children, toys and pets away from the
 									work area
@@ -231,7 +250,9 @@ const GuidelinesAndTips = () => {
 											class="fa fa-caret-right"
 											aria-hidden="true"
 										></i>
+										<strong className= "guidestrong">
 										Maintain Schedule
+										</strong>
 									</li>
 								</ul>
 								<p className="movedover">
@@ -249,7 +270,9 @@ const GuidelinesAndTips = () => {
 											class="fa fa-caret-right"
 											aria-hidden="true"
 										></i>
+										<strong className= "guidestrong">
 										Create Space
+										</strong>
 									</li>
 								</ul>
 								<p className="movedover">
@@ -258,8 +281,7 @@ const GuidelinesAndTips = () => {
 									from the work area so the contractor has
 									sufficient space to work.
 								</p>
-							</div>
-						</span>
+						
 						<span className="info">
 							<div className="infocircle">
 								<h1>5</h1>
@@ -272,9 +294,13 @@ const GuidelinesAndTips = () => {
 											class="fa fa-caret-right"
 											aria-hidden="true"
 										></i>
+										<strong className= "guidestrong">
 										Basic Human Relations
+										</strong>
 									</li>
 								</ul>
+								</div>
+								</span>
 								<p className="movedover">
 									Realize that workers ar going to be a part
 									of your lives for a period of time. Win
@@ -287,7 +313,9 @@ const GuidelinesAndTips = () => {
 											class="fa fa-caret-right"
 											aria-hidden="true"
 										></i>
+										<strong className= "guidestrong">
 										Refreshments
+										</strong>
 									</li>
 								</ul>
 								<p className="movedover">
@@ -301,7 +329,9 @@ const GuidelinesAndTips = () => {
 											class="fa fa-caret-right"
 											aria-hidden="true"
 										></i>
+										<strong className= "guidestrong">
 										Give Compliments
+										</strong>
 									</li>
 								</ul>
 								<p className="movedover">
@@ -315,15 +345,17 @@ const GuidelinesAndTips = () => {
 											class="fa fa-caret-right"
 											aria-hidden="true"
 										></i>
+										<strong className= "guidestrong">
 										Be Cool and Calm
+										</strong>
 									</li>
+
 								</ul>
 								<p className="movedover">
 									Take a deep breath, step back and trust his
 									or her skills
 								</p>
-							</div>
-						</span>
+						
 					</div>
 				</div>
 			</div>
