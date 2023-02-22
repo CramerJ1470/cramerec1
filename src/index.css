@@ -28,7 +28,7 @@
 
 	.disp div.title1 {
 		position: absolute;
-		top: 15%;
+		top: 10%;
 	}
 
 	.background1 {
@@ -120,7 +120,6 @@
 		width: 350px;
 	}
 
-
 	.cropped {
 		display: inline-block;
 		left: 10%;
@@ -188,11 +187,9 @@
 		background-size: cover;
 	}
 
-
-
 	.disp div.title1 {
 		position: absolute;
-		top: 15%;
+		top: 10%;
 	}
 
 	.scrolltip p {
@@ -372,8 +369,6 @@
 	.worklinkdiv {
 		visibility: hidden;
 	}
-
-
 }
 
 @media only screen and (max-width: 415px) {
@@ -820,7 +815,6 @@ top: 57.25%;
 	width: 100%;
 	height: auto;
 }
-
 
 .carousel1 img {
 	width: 100%;
@@ -1369,5 +1363,4 @@ div .clicklogo {
 
 .bigcen {
 	margin-left: 35%;
-	
 }
