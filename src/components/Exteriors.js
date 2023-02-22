@@ -9,7 +9,7 @@ const Exteriors = ({ exteriors} ) => {
 	return (
 		<>
 			<span className="disp">
-				<div className="title1">Exteriors</div>
+				<div className="worklinks">Exteriors Under Construction</div>
 				<Logo />
 				<Banner />
 			</span>

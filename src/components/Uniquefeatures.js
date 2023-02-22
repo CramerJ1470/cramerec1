@@ -7,10 +7,12 @@ const Uniquefeatures = ({ uniquefeatures} ) => {
 	
 	console.log(uniquefeatures);
 	return (
-		<>
-			<Logo />
-			<Banner />
-			<PagePanels panelinfo={uniquefeatures}/>
+		<><span className="disp">
+		<div className="title1">Unique Features Under Construction</div>
+		<Logo />
+		<Banner />
+	</span>
+	<PagePanels panelinfo={uniquefeatures}/>
 		</>
 	);
 };

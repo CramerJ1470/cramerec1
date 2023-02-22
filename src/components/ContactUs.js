@@ -1,4 +1,6 @@
 import React from "react";
+import Logo from "./Logo";
+import Banner from "./Banner";
 
 class ContactUs extends React.Component {
 	constructor(props) {
@@ -11,8 +13,14 @@ class ContactUs extends React.Component {
 	}
 	render() {
 		return (
-			<div className="App">
-				<form
+			<>
+			<span className="disp">
+			<div className="worklinks">Contact Us Under Construction</div>
+			<Logo />
+			<Banner />
+		</span>
+			
+				{/* <form
 					id="contact-form"
 					onSubmit={this.handleSubmit.bind(this)}
 					method="POST"
@@ -50,8 +58,9 @@ class ContactUs extends React.Component {
 					<button type="submit" className="btn btn-primary">
 						Submit
 					</button>
-				</form>
-			</div>
+				</form> */}
+				</>
+			
 		);
 	}
 	onNameChange(event) {
