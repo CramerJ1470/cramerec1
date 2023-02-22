@@ -379,7 +379,14 @@
 	div.nav {
 		height: auto;
 	}
-
+	.scrolltip {
+		width: 100%;
+	}
+	.guidestrong {
+		color: white;
+		font-size: 15px;
+		font-weight: bolder;
+	}
 	.disp div.title1 {
 		position: absolute;
 		top: 5%;
