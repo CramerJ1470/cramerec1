@@ -7,10 +7,12 @@ const FORM_ENDPOINT = "";
 
 const ContactUs = () => {
 const [submitted, setSubmitted] = useState(false);
-const handleSubmit = () => {
+const handleSubmit = (e) => {
   setTimeout(() => {
 	setSubmitted(true);
   }, 100);
+  var mailBody=document.getElementById("message").value;
+   window.location="mailto:john@cramerec.com?subject=ContactForm&body="+mailBody;
 };
 
 if (submitted) {
@@ -62,6 +64,7 @@ return (
 	  <textarea
 		placeholder="Your message"
 		name="message"
+		id="message"
 		className="px-3 py-3 placeholder-white text-slate-600 relative bg-white bg-gray-400 rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
 		required
 	  />
