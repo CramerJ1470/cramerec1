@@ -25,6 +25,9 @@
 	body {
 		overflow-x: hidden;
 	}
+	.sidepic {
+		visibility:hidden;
+	}
 
 	.disp div.title1 {
 		position: absolute;
@@ -181,6 +184,10 @@
 	html,
 	body {
 		overflow-x: hidden;
+	}
+
+	.sidepic {
+		visibility:hidden;
 	}
 	.background1 {
 		background-repeat: repeat;
@@ -1388,4 +1395,12 @@ div .clicklogo {
 
 .bigcen {
 	margin-left: 35%;
+}
+
+.sidepic {
+	position: absolute;
+	right: 5%;
+	width: 25%;
+	height: auto;
+	top: 37.5%;
 }
