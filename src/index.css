@@ -383,6 +383,10 @@
 	body {
 		overflow-x: hidden;
 	}
+	.sidepic {
+		visibility:hidden;
+	}
+	
 	div.nav {
 		height: auto;
 	}
