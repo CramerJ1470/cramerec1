@@ -15,7 +15,7 @@ function AdditionsText() {
 						we've done many many extensions. Some just the first
 						floor, some two floors. Some with basements added. What
 						is the reason for your project? More storage? Perhaps an
-						entertainemt space? A Master Suite? Maybe a larger
+						entertainment space? A Master Suite? Maybe a larger
 						Kitchen or Den? Maybe a space for MOm or Dad? or Both?
 					</p>
 				</div>
