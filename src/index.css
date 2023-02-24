@@ -26,7 +26,7 @@
 		overflow-x: hidden;
 	}
 	.sidepic {
-		visibility:hidden;
+		visibility: hidden;
 	}
 
 	.disp div.title1 {
@@ -185,9 +185,10 @@
 	body {
 		overflow-x: hidden;
 	}
+	
 
 	.sidepic {
-		visibility:hidden;
+		visibility: hidden;
 	}
 	.background1 {
 		background-repeat: repeat;
@@ -384,9 +385,16 @@
 		overflow-x: hidden;
 	}
 	.sidepic {
-		visibility:hidden;
+		visibility: hidden;
 	}
-	
+	div.contactForm{
+		width: 70%;
+	}
+
+	#topInput {
+		padding-top: 70%;
+	}
+
 	div.nav {
 		height: auto;
 	}
@@ -405,7 +413,6 @@
 	}
 	.scrolltip h2 {
 		font-size: 20px;
-	
 	}
 
 	div.infocircle {
