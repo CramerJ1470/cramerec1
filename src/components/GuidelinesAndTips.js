@@ -6,7 +6,7 @@ const GuidelinesAndTips = () => {
 	return (
 		<>
 			<span className="disp">
-				<div className="title1">Our Work</div>
+				<div className="title1">Guidelines<br></br>and Tips</div>
 				<Logo />
 				<Banner />
 			</span>

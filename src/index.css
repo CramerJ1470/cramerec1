@@ -382,6 +382,7 @@
 @media only screen and (max-width: 415px) {
 	html,
 	body {
+		width: 95%;
 		overflow-x: hidden;
 	}
 	.sidepic {
@@ -446,7 +447,7 @@
 	}
 
 	img#logo {
-		width: 15%;
+		width: 25%;
 	}
 	.title1 {
 		left: 35%;
@@ -455,7 +456,7 @@
 	button.nav-btn.open-btn {
 		display: flex;
 		top: 4%;
-		right: 0%;
+		right: 5%;
 		font-size: 70px;
 	}
 	.disp {

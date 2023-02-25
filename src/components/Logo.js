@@ -7,7 +7,7 @@ const Logo = () => {
 	return (
 		<>
 			<div>
-			<img type="button" src={logo} id="logo" className="logo" onClick={openup} alt="logo"></img>  
+			<img type="button" src={logo} id="logo" className="logo2" onClick={openup} alt="logo"></img>  
 			</div>
 		</>
 	);
