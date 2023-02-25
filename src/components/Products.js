@@ -7,7 +7,7 @@ const Products = () => {
 	return (
 		<>
 			<span className="disp">
-				<div className="worklinks">Products Under Construction</div>
+				<div className="title1">Products</div>
 				<Logo />
 				<Banner />
 			</span>
@@ -43,11 +43,7 @@ const Products = () => {
 
 				
 				/>
-				<img
-					src="https://cdn.freebiesupply.com/logos/large/2x/armstrong-1-logo-black-and-white.png"
-					alter="Simpson logo"
-					
-				/>
+				
 				</div>
 		</>
 	);
