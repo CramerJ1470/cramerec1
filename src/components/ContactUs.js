@@ -41,7 +41,7 @@ const ContactUs = () => {
 	return (
 		<>
 			<span className="disp">
-			<div className="title1">Contact Us</div>
+				<div className="title1">Contact Us</div>
 				<Logo />
 				<Banner />
 			</span>

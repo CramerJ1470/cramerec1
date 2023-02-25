@@ -12,12 +12,12 @@ const VertPanelSlider = ({ panelinfo, vert }) => {
 			<VertPageCarouselImages panelinfo={panelinfo} vert={vert} />
 
 			<div className="buttons-container">
-				<button id="left" className="btn1">
+				{/* <button id="left" className="btn1">
 					Prev
 				</button>
 				<button id="right" className="btn2">
 					Next
-				</button>
+				</button> */}
 			</div>
 		</div>
 	);

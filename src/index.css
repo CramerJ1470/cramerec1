@@ -136,8 +136,8 @@
 		align-items: center;
 	}
 	div.carousel {
-		width: 350px;
-		overflow: hidden;
+		width: 85%;
+		overflow-x: hidden;
 	}
 
 	.image-container {
@@ -149,7 +149,7 @@
 	}
 
 	div.approach {
-		top: 60%;
+		top: 65%;
 		height: auto;
 		width: 85%;
 		border: none;
@@ -185,7 +185,6 @@
 	body {
 		overflow-x: hidden;
 	}
-	
 
 	.sidepic {
 		visibility: hidden;
@@ -212,6 +211,7 @@
 	div.vertcarousel {
 		width: 85%;
 		left: 7.5%;
+		overflow-x: hidden;
 	}
 
 	.linkText {
@@ -299,7 +299,7 @@
 		align-items: center;
 	}
 	.carousel {
-		width: 350px;
+		width: 85%;
 		overflow-x: hidden;
 		position: fixed;
 	}
@@ -348,7 +348,7 @@
 		height: auto;
 	}
 	div.approach {
-		top: 60%;
+		top: 65%;
 		height: auto;
 		width: 85%;
 		border: none;
@@ -387,8 +387,17 @@
 	.sidepic {
 		visibility: hidden;
 	}
-	div.contactForm{
+	div.contactForm {
 		width: 70%;
+	}
+	div.vertcarousel {
+		width: 85%;
+		left: 7.5%;
+		overflow-x: hidden;
+	}
+
+	.vertcarousel img {
+		width: 100%;
 	}
 
 	#topInput {
@@ -438,7 +447,6 @@
 
 	img#logo {
 		width: 15%;
-		
 	}
 	.title1 {
 		left: 35%;
@@ -522,7 +530,7 @@
 		width: 80%;
 		height: auto;
 		left: 10%;
-		overflow: hidden;
+		overflow-x: hidden;
 	}
 
 	.caseTitle {
@@ -544,7 +552,7 @@
 	}
 
 	div.approach {
-		top: 60%;
+		top: 65%;
 		height: auto;
 		width: 85%;
 		border: none;
