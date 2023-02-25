@@ -1440,3 +1440,20 @@ div .clicklogo {
 	margin: auto;
 	margin-top: 19%;
 }
+
+.productLogos {
+	display: flex;
+	margin-top: 15%;
+	width: 85%;
+	margin-left: 7.5%;
+	height: auto;	
+	background-color: rgba(241, 240, 245, 0.5);
+	border-radius: 25px;
+	flex-wrap: wrap;
+}
+
+.productLogos img {
+	margin: 2.5%;
+	width: 15%;
+	
+}
