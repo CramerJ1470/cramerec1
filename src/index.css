@@ -449,6 +449,10 @@
 	img#logo {
 		width: 25%;
 	}
+
+	#logo {
+		filter: none;
+	}
 	.title1 {
 		left: 35%;
 	}
@@ -738,7 +742,7 @@ body {
 	background-size: cover;
 	background-repeat: repeat;
 	height: auto;
-	
+	filter: drop-shadow(0 0 0.005 black);
 }
 
 .background1 {
