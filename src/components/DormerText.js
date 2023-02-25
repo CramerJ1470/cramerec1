@@ -15,7 +15,7 @@ function DormerText() {
 						existing home. Add some bedroom(s), bathroom(s), laundry
 						, perhaps an home office or entertainment space! we have
 						the ability to assess your existing structure to see if
-						it needs reiforcing for a second floor or maybe you have
+						it needs reinforcing for a second floor or maybe you have
 						a cape where we just add walls and a roof system. Adding
 						a second floor is one of the best ways to add excellent
 						extra value.
