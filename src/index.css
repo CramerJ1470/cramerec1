@@ -360,6 +360,10 @@
 		text-align: center;
 	}
 
+	#logo {
+		filter: none;
+	}
+
 	div.personalprocess {
 		display: flex;
 		position: absolute;
