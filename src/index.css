@@ -178,13 +178,13 @@
 	.worklinkdiv {
 		visibility: hidden;
 	}
-	div.productLogos {
+	div.products {
 		margin-top: 60%;
 		width: 85%;
 		margin-left: 12.5%;
 	}
 
-	div.productLogos img {
+	div.products img {
 		width: 40%;
 		margin-left: 5%;
 	}
@@ -392,13 +392,13 @@
 		visibility: hidden;
 	}
 
-	div.productLogos {
+	div.products {
 		margin-top: 60%;
 		width: 85%;
 		margin-left: 12.5%;
 	}
 
-	div.productLogos img {
+	div.products img {
 		width: 40%;
 		margin-left: 5%;
 	}
@@ -612,13 +612,13 @@
 		visibility: hidden;
 	}
 
-	div.productLogos {
+	div.products {
 		margin-top: 60%;
 		width: 85%;
 		margin-left: 12.5%;
 	}
 
-	div.productLogos img {
+	div.products img {
 		width: 40%;
 		margin-left: 5%;
 	}
@@ -1472,7 +1472,7 @@ div .clicklogo {
 	margin-top: 19%;
 }
 
-.productLogos {
+.products {
 	display: flex;
 	margin-top: 15%;
 	width: 85%;
@@ -1483,7 +1483,7 @@ div .clicklogo {
 	flex-wrap: wrap;
 }
 
-.productLogos img {
+.products img {
 	margin: 2.5%;
 	width: 15%;
 }

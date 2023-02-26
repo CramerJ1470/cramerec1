@@ -11,7 +11,7 @@ const Products = () => {
 				<Logo />
 				<Banner />
 			</span>
-			<div className="productLogos">
+			<div className="products">
 				<img
 					src="http://www.murphylumber.net/images/ANDERSEN_Logo_TM_Rectangle_RGB.png"
 					alter="andersen windows logo"
@@ -39,19 +39,12 @@ const Products = () => {
 				<img
 					src="https://jbwholesale.com/wp-content/uploads/2017/02/GAF-Logo-PNG.png"
 					alter="Simpson logo"
-					
-
-				
-				/><img
-				src=""
-				alter="Mohawk logo"
-				
-
-			
-			/>
-
-				
-				</div>
+				/>
+				<img
+					src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/102017/untitled-6_1.png?167syQFOJ0K8IGvqsmZ.Rc.mjemNDgKy&itok=mPlecMxN"
+					alter="Mohawk logo"
+				/>
+			</div>
 		</>
 	);
 };

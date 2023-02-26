@@ -7,6 +7,7 @@ function AdditionsText() {
 			<div>
 				<div className="approach">
 					<div>
+						<p>{" "}</p>
 						<h2>Add an Extension!</h2>
 					</div>
 					<p>
@@ -16,11 +17,15 @@ function AdditionsText() {
 						floor, some two floors. Some with basements added. What
 						is the reason for your project? More storage? Perhaps an
 						entertainment space? A Master Suite? Maybe a larger
-						Kitchen or Den? Maybe a space for MOm or Dad? or Both?
+						Kitchen or Den? Maybe a space for Mom or Dad? or Both?
 					</p>
 				</div>
-				<div >
-                    <img className="sidepic" src={additionsFamily1} alt="additionsFamily" />
+				<div>
+					<img
+						className="sidepic"
+						src={additionsFamily1}
+						alt="additionsFamily"
+					/>
 				</div>
 			</div>
 		</>
