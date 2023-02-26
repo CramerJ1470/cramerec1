@@ -8,7 +8,11 @@ const Home1 = ( beforeafters ) => {
 	
 	return (
 		<>
-			<Logo />
+			<span className="disp">
+				<div className="title1">Home</div>
+				<Logo />
+				<Banner />
+			</span>
 			<Banner />
 			<TransitionPanel beforeafters={beforeafters}/>
 			<SeeOurWork/>

@@ -205,7 +205,7 @@ function App() {
 													<Route
 														path="/"
 														element={
-															<Home1
+															<Home
 																beforeafters={
 																	beforeafters
 																}
