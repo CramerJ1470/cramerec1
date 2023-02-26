@@ -223,7 +223,7 @@
 		left: 7.5%;
 		overflow-x: hidden;
 	}
-	img#logo {
+	.disp img#logo {
 		width: 25%;
 	}
 	.linkText {
