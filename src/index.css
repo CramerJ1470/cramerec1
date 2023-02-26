@@ -223,7 +223,9 @@
 		left: 7.5%;
 		overflow-x: hidden;
 	}
-
+	img#logo {
+		width: 25%;
+	}
 	.linkText {
 		margin-top: 0rem;
 	}
@@ -370,7 +372,7 @@
 		text-align: center;
 	}
 
-	#logo {
+	.disp img#logo {
 		filter: none;
 	}
 
@@ -471,13 +473,7 @@
 		text-align: center;
 	}
 
-	img#logo {
-		width: 25%;
-	}
-
-	#logo {
-		filter: none;
-	}
+	
 	.title1 {
 		left: 35%;
 	}
@@ -497,6 +493,10 @@
 		height: 5%;
 		left: 5%;
 		top: 18%;
+	}
+
+	.disp img#logo {
+		width: 25%;
 	}
 
 	.Footer {
@@ -822,7 +822,7 @@ code {
 /*left: 42%;
 top: 57.25%;
 */
-#logo {
+img#logo {
 	position: absolute;
 	top: 2rem;
 	left: 20px;
