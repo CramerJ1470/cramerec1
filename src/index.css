@@ -149,7 +149,7 @@
 	}
 
 	div.approach {
-		top: 65%;
+		top: 70%;
 		height: auto;
 		width: 85%;
 		border: none;
@@ -179,7 +179,7 @@
 		visibility: hidden;
 	}
 	div.products {
-		margin-top: 60%;
+		margin-top: 70%;
 		width: 85%;
 		margin-left: 12.5%;
 	}
@@ -358,7 +358,7 @@
 		height: auto;
 	}
 	div.approach {
-		top: 65%;
+		top: 67.5%;
 		height: auto;
 		width: 85%;
 		border: none;
@@ -393,7 +393,7 @@
 	}
 
 	div.products {
-		margin-top: 60%;
+		margin-top: 75%;
 		width: 85%;
 		margin-left: 12.5%;
 	}
@@ -613,7 +613,7 @@
 	}
 
 	div.products {
-		margin-top: 60%;
+		margin-top: 75%;
 		width: 85%;
 		margin-left: 12.5%;
 	}
@@ -830,7 +830,6 @@ top: 57.25%;
 	height: auto;
 	width: 15%;
 	z-index: 500;
-	
 }
 
 #logo.leftTop {
