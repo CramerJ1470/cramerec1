@@ -310,10 +310,11 @@
 		text-align: center;
 		align-items: center;
 	}
-	.carousel {
+	div.carousel {
 		width: 85%;
+		margin-top: 8%;
 		overflow-x: hidden;
-		position: fixed;
+		position: absolute;
 	}
 
 	div.infocircle {
@@ -361,6 +362,7 @@
 	}
 	div.approach {
 		top: 67.5%;
+		margin-top: 15%;
 		height: auto;
 		width: 85%;
 		border: none;
@@ -380,6 +382,7 @@
 		display: flex;
 		position: absolute;
 		top: 110%;
+		margin-top: 35%;
 		width: 100%;
 		height: 100%;
 		left: 0;
