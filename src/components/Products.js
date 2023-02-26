@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "./Banner";
 import Logo from "./Logo";
 import SeeOurWork from "./SeeOurWork";
+const owensCorning = require("../assets/owens.png");
 
 const Products = () => {
 	return (
@@ -13,7 +14,7 @@ const Products = () => {
 			</span>
 			<div className="products">
 				<img
-					src="http://www.murphylumber.net/images/ANDERSEN_Logo_TM_Rectangle_RGB.png"
+					src="https://findlogovector.com/wp-content/uploads/2019/12/andersen-windows-and-doors-logo-vector.png"
 					alter="andersen windows logo"
 				/>
 				<img
@@ -40,8 +41,9 @@ const Products = () => {
 					src="https://jbwholesale.com/wp-content/uploads/2017/02/GAF-Logo-PNG.png"
 					alter="Simpson logo"
 				/>
+				<img src={owensCorning} alter="Mohawk logo"/>
 				<img
-					src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/102017/untitled-6_1.png?167syQFOJ0K8IGvqsmZ.Rc.mjemNDgKy&itok=mPlecMxN"
+					src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Mohawk_Industries_logo.svg/2560px-Mohawk_Industries_logo.svg.png"
 					alter="Mohawk logo"
 				/>
 			</div>
