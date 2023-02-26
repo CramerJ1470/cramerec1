@@ -8,7 +8,7 @@ const Home = (beforeafters) => {
 	return (
 		<>
 			<span className="disp">
-				<div className="title1">Home</div>
+				<div className="title1"></div>
 				<Logo />
 				<Banner />
 			</span>
