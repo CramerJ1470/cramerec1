@@ -5,9 +5,7 @@ function openup() {
 	document.getElementById("tr").classList.add("uprightmove");
 	document.getElementById("bl").classList.add("downleftmove");
 	document.getElementById("br").classList.add("downrightmove");
-	document.getElementById("logo").style.filter =
-		"drop-shadow(0 0 .5rem black)";
-	document.getElementById("cropped").style.filter =
+		document.getElementById("cropped").style.filter =
 		"drop-shadow(0 0 3rem black)";
 	let logo = document.getElementById("logo");
 	logo.style.pointerEvents = "none";

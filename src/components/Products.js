@@ -42,7 +42,14 @@ const Products = () => {
 					
 
 				
-				/>
+				/><img
+				src=""
+				alter="Mohawk logo"
+				
+
+			
+			/>
+
 				
 				</div>
 		</>
