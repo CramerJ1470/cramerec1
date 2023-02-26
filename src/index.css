@@ -764,7 +764,8 @@
 }
 
 .vishid {
-	visibility: hidden;}
+	visibility: hidden;
+}
 
 body {
 	margin: 0;
@@ -1469,7 +1470,7 @@ div .clicklogo {
 	margin-top: 19%;
 }
 
-div.products {
+.products {
 	display: flex;
 	margin-top: 15%;
 	width: 85%;
@@ -1480,7 +1481,7 @@ div.products {
 	flex-wrap: wrap;
 }
 
-div.products img {
+.products img {
 	margin: 2.5%;
 	width: 15%;
 }
