@@ -476,7 +476,6 @@
 		text-align: center;
 	}
 
-	
 	.title1 {
 		left: 35%;
 	}
@@ -902,7 +901,6 @@ img#logo {
 
 .carousel img {
 	width: 100%;
-	height: auto;
 }
 
 .vertcarousel img {
@@ -927,16 +925,16 @@ img#logo {
 }
 
 .carousel {
-	display: flex;
 	position: absolute;
 	top: 30%;
 	left: 35%;
-	height: 51%;
-	width: 30%;
+	height:51%;
+	width: 35%;
 	border: solid 5px white;
 	filter: drop-shadow(0 0 2.5rem black);
 	flex-wrap: nowrap;
 	overflow-x: hidden;
+	
 }
 
 .vertcarousel {
@@ -957,9 +955,20 @@ img#logo {
 }
 
 .horizontal {
-	display: flex;
+	position: absolute;
+	top: 35%;
+	object-fit: contain;
+	
+	
+	
+}
+.active {
+visibility: visible;
 
-	flex-wrap: nowrap;
+}
+
+.inactive {
+	visibility: hidden;
 }
 
 .horizontal1 {
@@ -1035,11 +1044,11 @@ img#logo {
 }
 
 .image-container {
-	display: flex;
+	position: absolute;
+	object-fit: cover;
 	width: 100%;
-	height: 100%;
-	transform: translateX(0);
-	transition: transform 0.8s ease-in-out;
+	transform: visibility ease-in-out 0.5s;
+	/* transition: transform 0.8s ease-in-out; */
 }
 
 .prelim {

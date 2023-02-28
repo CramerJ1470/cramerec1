@@ -3,6 +3,9 @@ import Logo from "./Logo";
 import Banner from "./Banner";
 import TransitionPanel from "./TransitionPanel";
 import SeeOurWork from "./SeeOurWork";
+import AboutUs from "./AboutUs";
+import GuidelinesAndTips from "./GuidelinesAndTips";
+
 
 const Home = (beforeafters) => {
 	return (
@@ -14,7 +17,9 @@ const Home = (beforeafters) => {
 			</span>
 			
 			
-			<TransitionPanel beforeafters={beforeafters} />
+			{/* <TransitionPanel beforeafters={beforeafters} /> */}
+			
+			
 			<SeeOurWork />
 		</>
 	);

@@ -13,7 +13,7 @@ const Slider = (beforeafters) => {
 			
 				<CarouselImages images={newData}/>
 			
-
+{/* 
 			<div className="buttons-container">
 				
 				<button id="left" className="btn1">
@@ -22,7 +22,7 @@ const Slider = (beforeafters) => {
 				<button id="right" className="btn2">
 					Next
 				</button>
-			</div>
+			</div> */}
 		</div>
 	);
 	//  console.log(beforeafters1.g{et());

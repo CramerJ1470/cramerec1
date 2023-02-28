@@ -16,7 +16,7 @@ const AboutUs = (beforeafters) => {
 				<Banner />
 			</span>
 			<div className="aboutus">
-				<TransitionPanel beforeafters={beforeafters} />
+				{/* <TransitionPanel beforeafters={beforeafters} /> */}
 
 				<OurApproach />
 			</div>
