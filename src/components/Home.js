@@ -17,7 +17,7 @@ const Home = (beforeafters) => {
 			</span>
 			
 			
-			{/* <TransitionPanel beforeafters={beforeafters} /> */}
+			<TransitionPanel beforeafters={beforeafters} /> 
 			
 			
 			<SeeOurWork />
